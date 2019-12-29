@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Police Complaint</title>
+    <!--------------Bootstrap links-------------->
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<!---------------------Animated Link--------------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-----------------Font icons link------------------>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	      <!----------Nav-Bar----------------------->
+ <nav class="navbar navbar-dark navbar-expand-md bg-dark background">
+ 	<div class="container">
+ 		<a class="nav-brand" href="#home">
+ 	  <img src="images/Telangana_Police_Logo.png" height="100px" width="100px" class="wow rotateIn">TS Online Police</a>
+ 		<button class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+
+           <!--------Home-------------->
+ 		<div class="collapse navbar-collapse justify-content-center" id="nav">
+ 			<ul class="nav navbar-nav">
+ 				<li class="nav-item">
+ 				<a class="nav-link" href="#home" style="margin-right:20px">Home</a>
+ 				</li>
+ 			
+            <!----------About Us-------------->
+ 				<li class="nav-item dropdown">
+ 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
+ 					<div class="dropdown-menu wow bounce">
+                     <a class="dropdowm-item" href="#">History</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdowm-item" href="#">Citizen's Charter</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdowm-item" href="#">Former comissioners</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdowm-item" href="#">Medals</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdowm-item" href="#">Appreciation letters from public</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdowm-item" href="#">Organization Structure</a>
+ 				    </div>
+ 				</li>
+                <!-------------Services----------->
+ 				<li class="nav-item dropdown">
+ 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+ 					<div class="dropdown-menu wow bounce">
+ 						<a class="dropdowm-item" href="#">Missing children</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">Missing person search</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">Un-identified children found</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">un-identified dead body</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">stolen vechicles search</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">Missing Stolen Mobile phones</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">Most wanted</a>
+ 						<div class="dropdown-divider"></div>
+ 						<a class="dropdowm-item" href="#">download forms</a>
+ 					</div>
+ 				</li>
+                <!-------Statistics------------->
+                <li class="nav-item">
+                	<a class="nav-link" href="#">Statistics</a>
+                </li>
+
+                <li class="nav-item">
+                	<a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <!--------Contact US --------->
+                <li class="nav-item ">
+                <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <!----------Login/Reg------------->
+                <li class="nav-item">
+                	<a class="nav-link" href="#login">Login/Reg</a>
+                </li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </nav>
+
+<!--------------------Home Page------------------>
+<div class="jumbotron jumbotron-fluid background1">
+	<div class="container">
+		<section id="home">
+
+			<div class="section-header">
+				<h2 class="animated bounce">Welcome to Telangana Online Police Complaint</h2>
+            </div>
+			
+			<div class="row">
+				<div class="col-lg-6 image6 wow fadeInLeft data-wow-delay">
+					<img src="images/image6.jpg" height="600px" width="100%">
+			   </div>
+
+			    <div class="col-lg-6 content wow fadeInRight">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</section>
+	</div>
+</div>
+
+<!------------------Login/Reg page------------->
+<div class="jumbotron jumbotron-fluid background2">
+<div class="container">
+	<section id="login">
+		<div class="row wow bounce">
+			<div class="col-lg-3 col-md-3">
+				<div class="login-page">
+				<form>
+			    <div class="form-row">
+            		      <h2 class="text-center">Login</h2>
+                           <br/>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="userid" placeholder="User id">
+                        </div>
+                        
+                        <div class="form-group">
+                           <input type="password" class="form-control" id="pwd" placeholder="Password">
+                        </div>
+                        <br/>
+
+                    <div class="align-center">
+                        <button type="submit" class="btn btn-secondary" id="login">Login
+                        </button>
+                    </div>
+                </div>
+				</form>
+				</div>
+			</div>
+
+            <!----------------Register page--------------------->
+
+        <div class="col-xl-3 col-md-5">
+         <div class="reg-page">
+            <form class="form-signin">
+            <div class="form-row">
+            	<h5 class="text-center">Register</h5>
+            	<br>
+
+               <div class="form-label-group">
+                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus="off">
+                <label for="inputUserame">Username</label>
+               </div>
+
+               <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <label for="inputEmail">Email address</label>
+               </div>
+              
+              <hr>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+              
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                <label for="inputConfirmPassword">Confirm password</label>
+              </div>
+
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register
+              </button>
+
+              <a class="d-block text-center mt-2 small" href="#">Sign In</a>
+
+              <hr class="my-4">
+
+              <button class="btn btn-lg btn-google btn-block text-uppercase text-danger" type="submit"><i class="fa fa-google mr-2"></i> Sign up with Google</button>
+
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase text-info" type="submit"><i class="fa fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+           </div>
+       </form>
+       </div>
+   </div>
+</div>
+</section>
+</div>	
+</div>
+<!---------------Gallery------------------->
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+		<section id="gallery">
+			<div class="section-header">
+				<h3 class="section-title wow bounce data-wow-delay">Gallery</h3>
+				<span class="section-divider"></span>
+			</div>
+
+			<div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <div class="gallery-item wow fadeInLeft">
+					 <a href="images/image9.jpg">
+					 <img src="images/image9.jpg" alt="" height="300px" width="400px"></a>	
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-5">
+                    <div class="gallery-item">
+					 <a href="images/image2.jpg">
+					 <img src="images/image2.jpg" alt="" height="300px" width="400px"></a>	
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-5">
+					<div class="gallery-item wow fadeInRight">
+					 <a href="images/image3.jpg">
+					 <img src="images/image3.jpg" alt="" height="300px" width="400px"></a>	
+					</div>
+				</div>
+
+
+
+				<div class="col-lg-4 col-md-5">
+					<div class="gallery-item wow fadeInLeft">
+					 <a href="images/image5.jpg">
+					 <img src="images/image5.jpg" alt="" height="300px" width="400px"></a>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-5">
+					<div class="gallery-item">
+					 <a href="images/image8.jpg">
+					 <img src="images/image8.jpg" alt="" height="300px" width="400px"></a>
+					</div>
+				</div>
+
+                <div class="col-lg-4 col-md-5">
+					<div class="gallery-item wow fadeInRight">
+					 <a href="images/image7.jpg" class="gallery-popup">
+					 <img src="images/image7.jpg" alt="" height="300px" width="400px"></a>	
+					</div>
+				</div>
+			</div>
+        </section>
+    </div>
+</div>
+
+<!---------Contact page-------------------->
+<div class="jumbotron jumbotron-fluid background3">
+	<div class="container">
+		<section id="contact">
+		<div class="section-header">
+			<h4 class="section-title wow bounce data-wow-delay">Contact Us</h4>
+			<span class="section-divider"></span>
+		</div>
+            <div class="row wow fadeInUp">
+            	<div class="col-lg-4 col-md-4">
+            	<div class="contact-about text-light">
+            		<h3>TS online police complaint</h3>
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            		</p>
+            	</div>
+			    
+			    <div class="social-links">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+           <div class="col-lg-3 col-md-4">
+           	  <div class="info">
+           		<div>
+           			<i class="fa fa-map-marker"></i>
+           			<p class="text-light">A108 Hyderbad<br>India,IN 50009</p>
+           		</div>
+                    <i class="fa fa-envelope"></i>
+                    <p class="text-light">info@example.com</p>
+           		<div>
+           	    <div>
+           		    <i class="fa fa-phone-square"></i>
+           		    <p class="text-light">+100</p>		
+           	    </div>
+           		</div>
+           	  </div>
+           </div>
+
+              <div class="col-lg-5 col-md-8">
+              	<div class="form">
+            <form>
+            	<div class="form-row">
+            		<div class="form-group col-lg-5">
+            			<lable>Name</lable>
+            			<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:10" data-msg="please enter">
+                        <div class="validation"></div>
+            		</div>
+
+            		<div class="form-group">
+            			<label>Email</label>
+            			<input type="email" name="email" class="form-control" id="email" placeholder="Your Email" data-rule="minlen:10" data-msg="please enter your valid email">
+                        <div class="validation"></div>
+            		</div>
+
+            		<div class="form-group">
+            			<label>Subject</label>
+            			<input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" data-rule="minlen:10" data-msg="please enter">
+                        <div class="validation"></div>
+            		</div>
+
+                    <div class="form-group">
+                    	<label>Message</label>
+                      <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                   </div>
+                     
+                    <input type="button" name="button" value="Click Me" class="btn btn-success">
+                   
+            	</div>
+            </form>
+              	</div>
+              </div>
+		</section>
+	</div>
+</div>
+
+<!-----------Footer-------------->
+<div class="container-fluid">
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 text-lg-left text-center">
+              <div class="copyright">
+                &copy; Copyright <strong>TS online Police Complaint</strong>. All Rights Reserved
+              </div>
+			</div>
+
+		    <div class="col-lg-6">
+               <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+                  <a href="#intro" class="scrollto">Home</a>
+                  <a href="#about" class="scrollto">About</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms of Use</a>
+              </nav>
+            </div>
+		</div>
+	</div>
+</footer>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <!----------wow CDN code--------->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<!-------------- Copy This wow code in github------------------>
+ <script type="text/javascript">
+ 	var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+ </script>
+</html>

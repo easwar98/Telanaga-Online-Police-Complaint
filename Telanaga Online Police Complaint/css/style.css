@@ -1,0 +1,22 @@
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.background1{
+	background-image: url("../images/background5.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.background3{
+	background-image: url("../images/background3.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.background2{
+	background-image: url("../images/image4.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
